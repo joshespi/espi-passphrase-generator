@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Espi's Simple Passphrase Generator</title>
+    <style>
+      body{text-align: center;}ul{list-style-type: none;}
+    </style>
+  </head>
+  <body>
+    <h1>Espi's Simple Passphrase Generator</h1>
+    <ul>
+      {% for passphrase in passphrases %}
+      <li>{{ passphrase }}</li>
+      {% endfor %}
+    </ul>
+    <button onclick="location.reload()">Regenerate</button>
+    <ul>
+      <li><a href="">Link to Code on Github</a></li>
+      <li><a href="">I am Josh Espinoza Website</a></li>
+    </ul>
+    
+  </body>
+</html>

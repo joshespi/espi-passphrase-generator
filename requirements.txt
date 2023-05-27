@@ -1,0 +1,4 @@
+flask
+setuptools 
+wheel
+nltk
